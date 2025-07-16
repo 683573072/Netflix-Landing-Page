@@ -1,0 +1,310 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(14, 13, 13);
+   
+}
+.top-page{
+    background: url(./images/netflix-background-image-25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    height: 780px;
+       
+}
+.all{
+    background:linear-gradient(to top, rgba(0,0,0,0), #151515);
+}
+.header{
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.header-left{
+    color: red;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    padding-left: 40px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+.header-left:hover{
+    color: rgb(137, 62, 235);
+}
+.header-right{
+    padding-top: 20px;
+    margin-left: 1100px;
+    display: flex;
+}
+.leftbox{
+    margin-top: 40px;
+    height: 25px;
+    width: 100px;
+    background-color: black;
+    align-content: center;
+    border: 1px solid black;
+    padding-left: 10px;
+    color: white;
+    text-shadow: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    font-family: 'Times New Roman', Times, serif;
+}
+.leftbox:hover{
+    padding-left: 18px;
+    width: 102px;
+}
+.rightbox{
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 40px;
+    height: 25px;
+    width: 80px;  
+    background-color: red;
+    align-content: center;
+    font-weight: 700;
+    color: white;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rightbox:hover{
+    padding-left: 25px;
+    width: 85px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+h2{
+    font-size: 50px;
+}
+.main-text{
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+}
+.main-text p{
+    padding-left: 300px;
+    font-size: 20px;
+}
+.ready-text{
+    padding-left: 160px;
+    font-size: 20px;
+}
+.main-bottom{
+    display: flex;
+}
+.email{
+    width: 260px;
+    height: 30px;
+    border: 2px solid white;
+    font-weight: 600;
+    align-items: center;
+    align-content: center;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    border: none
+}
+.bottom-right{
+    background-color: red;
+    width: 100px;
+    height: 26px;
+    margin-left: 20px;
+    border: 2px solid red;
+    font-weight: 600;
+    align-items: center;
+    align-content: center;
+    padding-left: 10px;
+    transition: all right 0.7s ease-in-out;
+}
+.bottom-right a:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+ .content-container{
+     margin-left: 50px;
+ }
+ .featured-content{
+     height: 50vh;
+     padding: 50px;
+ 
+ }
+ .featured-title{
+     width: 200px;
+ }
+ .featured-text{
+     width: 500px;
+     color: lightgray;
+     margin: 30px 0px;
+ }
+ .featured-button{
+     background-color:#4dbf00 ;
+     color: white;
+     padding: 10px 20px;
+     border-radius: 10px;
+     border: none;
+     outline: none;
+     font-weight: bold;
+ }
+.movie-list-container{
+    padding: 0 20px;
+}
+.movie-list-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.movie-list {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+.movie-list-item{
+    margin-right: 30px;
+    position: relative;
+  
+}
+.movie-list-title{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 1200;
+    font-family: 'sen', sans-serif;
+    color: white;
+}
+.movie-list-item:hover .movie-list-item-img{
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 0.5;
+}
+.movie-list-item-img{
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    border-radius: 20px;
+}
+.movie-list-item:hover .movie-list-item-text{
+    opacity: 1;
+}
+.movie-list-item:hover .movie-list-item-title{
+opacity: 1;
+}
+.movie-list-item:hover .movie-list-item-button{
+opacity: 1;
+}
+.movie-list-item-title{
+    background-color: #333;
+    padding: 0 10px;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.movie-list-item-text{
+    background-color: #333;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 25%;
+    left: 50px;
+    width: 190px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.movie-list-item-button{
+    padding: 10px;
+    background-color: #4dbf00;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.arrow{
+    font-size: 120px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    color: lightgray;
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+footer{
+    display: flex;
+}
+.footerLeft{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.fMenuTitle{
+    font-size: 16px;
+    color: white;
+}
+.fList{
+    padding: 0;
+    list-style: none;
+}
+.fListItem{
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerRight{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fInput{
+    padding: 5px;
+}
+.fButton{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.fIcons{
+    display: flex;
+}
+.fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.copyright{
+    font-size: 14px;
+    font-weight: 300;
+}
