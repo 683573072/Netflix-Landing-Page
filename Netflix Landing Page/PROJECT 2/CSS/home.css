@@ -1,0 +1,385 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background: rgba(225,225,225,0.5);
+ backdrop-filter: blur(15px);
+  border-radius: 30px;
+ border: 1px solid rgba(225, 225, 225, 0.15);
+ background-color: white;
+ box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+ width: 100%;
+ height: 50px;
+ z-index: 1;
+
+}
+.header2{
+    display: flex;
+    gap: 10px;
+}
+.header3{
+    gap: 4px;
+    padding-right: 10px;
+}
+.header2 a{
+    text-decoration:none ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: larger;
+    font-weight: 700;
+    color: black;
+    transition: all ease 0.3s;
+}
+.header2 a::after{
+    content: "";
+}
+.heade:hover::after{
+    content: "-------";
+    color: black;
+}
+.header2 a:hover{
+    color:blueviolet;
+    cursor: pointer;
+}
+.header3 a{
+    text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: larger;
+    font-weight: 700;
+    color: black;
+}
+.image{
+    padding-left: 10px;
+}
+/*body */
+main{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(198, 198, 231);
+  /*  border: 1px solid rgb(198, 198, 231);*/
+    height:450px ;
+    padding-top: 150px;
+    z-index: -2;
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+}
+.enterprise{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+.blue{
+    border: 1px solid  rgb(186, 186, 246);
+    border-radius: 6px;
+    width: 240px;
+    height: 30px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-size: large;
+}
+
+#fool{
+     border: 1px solid rgb(186, 186, 246);
+    box-shadow: 0px 4px 4px grey;
+    background-color: rgb(186, 186, 246);
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color transform 0.3s ease-in-out;
+}
+
+#fool:hover{
+    background-color: rgb(127, 127, 239);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#constant{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    border-radius: 6px;
+    height: 40px;
+}
+.blue p{
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: o 6px 6px blue;
+    background-color: rgb(84, 79, 154);
+}
+.but1{
+    border: 1px solid blue;
+    height: 30px;
+    width: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: blue;
+}
+.but2{
+    border: 2px solid white;
+    height: 30px;
+    width: 150px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+#plan{
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Leading{
+color: black;
+    font-size: xx-large;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#experience{
+color: black;
+    font-size:large;
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#card1{
+    display: flex;
+    justify-content: space-evenly;
+    z-index: -2;
+}
+    
+#card{
+    border: 1px solid  whitesmoke;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 10px;
+    height:200px ;
+    width: 300px;
+    backdrop-filter: blur(15px);
+    margin-top: 3px;
+    padding-top: 3px;
+    transition: transform 0.3s ease;
+}
+#card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+#card img{
+    margin-top: 12px;
+    padding-left: 15px;
+    filter: sepia(100%) hue-rotate(170deg) saturate(500%);
+}
+#card header{
+    margin-top: 12px;
+    padding-left: 15px;
+}
+#card p{
+margin-top: 12px;
+    padding-left: 15px;
+}
+.ultra{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.underbody{
+    margin-top: 25px;
+   
+}
+.boot{
+    height: 200px;
+    width: 300px;
+}
+.bootstrap{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+#plan1{
+    display: flex;
+    justify-content: space-evenly;
+    z-index: -2;
+}
+#card2{
+    border: 1px solid white;
+    box-shadow: 0px 8px 8px black;
+    width: 300px;
+    padding-top: 20px;
+    text-align: center;
+    height: 250px;
+}
+.basic{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#paragraph{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#per{
+    color: blue;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button{
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid blue;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#standard{
+    height: 350px;
+    margin-top: 15px;
+}
+.choose{
+    font-size: x-large;
+    font-weight: 800;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.your{
+text-align: center;
+font-size: large;
+font-weight: 500;
+}
+footer{
+    margin-top: 5px;
+     border: 5px solid rgb(229, 221, 221);
+    box-shadow: 6px 0px 6px black;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    height: 800px;
+}
+#map1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+#mapside{
+    font-size: x-large;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+#check{
+    text-align: center;
+}
+#nearmap{
+    border: 1px solid white;
+    box-shadow: 0 6px 6px black;
+    height: 560px;
+    width: 300px;
+}
+#towns{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 20px;
+    padding-left: 13px;
+}
+#buea{
+    color: blue;
+    padding-left: 10px;
+    font-size: medium;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#undermap{
+    margin-top: 8px;
+    border: 1px solid white;
+    box-shadow: 0px 6px 6px black;
+    border-radius: 10px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#address{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+#form1{
+    width: 400px;
+}
+#coverage{
+    border: 1px solid blue;
+    width: 98%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+ul{
+    margin-bottom: 15px;
+}
+iframe{
+    border-radius: 10px;
+    box-shadow: 0px 6px 6px black;
+}
+#rate1{
+    border: 1px solid white;
+    box-shadow: 0px 6px 6px black;
+    border-radius: 10px;
+    width: 300px;
+    padding-top: 25px;
+    padding-left: 35px;
+    transition: transform  0.3s ease-in-out;
+}
+#rate1:hover{
+transform: scale(1.07);
+cursor: pointer;
+}
+
+.rating-static-simple{
+   /* text-align: center;*/
+    font-size: 1.5rem;
+    /* padding-right: 3%; */
+    transition: transform 0.3s ease;
+}
+.rating-static-simple:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#rate{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+#town{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#what{
+    margin-top: 45px;
+}
+#touch{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 45px;
+}
+#get{
+margin-top: 50px;
+}
